@@ -41,5 +41,12 @@ if answer.lower() == "basic input output system":
 else:
     print("Incorrect!")
 
+answer = input("6] Who is Father of Computer?\n")
+if answer.lower() == "Charles Babbage":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
 print("You got " + str(score) + " questions correct!")
-print("You got " + str((score/5) * 100) + "%")
+print("You got " + str((score/6) * 100) + "%")
