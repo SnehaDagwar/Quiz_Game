@@ -49,8 +49,5 @@ else:
     print("Incorrect!")
 
 print("You got " + str(score) + " questions correct!")
-<<<<<<< HEAD
 print("You got " + str((score/6) * 100) + "%")
-=======
-print("You got " + str((score/5) * 100) + "%")
->>>>>>> b464555ef063abe05d75983394e1ca2b3f1601a5
+print("You got " + str((score/6) * 100) + "%")
